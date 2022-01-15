@@ -1,0 +1,27 @@
+
+[client] Connecting...
+[32m[manager] [0mStarting up repository: 'hha-507-final', branch: 'main', main module: 'hha507streamlit.py'
+[32m[manager] [0mCloning repository...
+[32m[manager] [0mCloning into '/app/hha-507-final'...
+
+[32m[manager] [0mCloned repository!
+[32m[manager] [0mPulling code changes from Github...
+[32m[manager] [0mProcessing dependencies...
+[32m[manager] [0mProcessed dependencies!
+2022-01-15 02:53:30.720 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/appuser/venv/lib/python3.7/site-packages/streamlit/script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "/app/hha-507-final/hha507streamlit.py", line 11, in <module>
+    import plotly.express as px
+ModuleNotFoundError: No module named 'plotly'
+
+
+
+2022-01-15 02:54:57.844 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/appuser/venv/lib/python3.7/site-packages/streamlit/script_runner.py", line 354, in _run_script
+    exec(code, module.__dict__)
+  File "/app/hha-507-final/hha507streamlit.py", line 11, in <module>
+    import plotly.express as px
+ModuleNotFoundError: No module named 'plotly'
